@@ -3,9 +3,11 @@ package com.cjburkey.mods.transloc.tile;
 import java.util.List;
 import com.cjburkey.mods.transloc.block.BlockTranslocator;
 import net.minecraft.entity.Entity;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
+import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -26,6 +28,7 @@ public class TileEntityTranslocator extends TileEntity implements ITickable {
 	}
 	
 	private void moveEntity() {
+		this.worldObj.playSound(null, pos, SoundEvents.BLOCK_PISTON_EXTEND, SoundCategory.BLOCKS, 0.5F, this.worldObj.rand.nextFloat() * 0.25F + 0.6F);
 		EnumFacing facing = this.worldObj.getBlockState(pos).getValue(BlockTranslocator.FACING);
 		if(facing.equals(EnumFacing.DOWN)) {
 			dU();
