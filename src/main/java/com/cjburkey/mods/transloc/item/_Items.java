@@ -14,7 +14,6 @@ public class _Items {
 	
 	private static final List<Item> items = new ArrayList<Item>();
 	
-	//TEST
 	public static Item testItem;
 	
 	//-- Common --//
