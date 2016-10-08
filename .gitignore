@@ -26,3 +26,4 @@ run
 *.gradlew
 *build.gradle
 *gradle*
+*VERSIONS*
