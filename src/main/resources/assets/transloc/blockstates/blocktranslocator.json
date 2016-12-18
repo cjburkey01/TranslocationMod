@@ -1,10 +1,10 @@
 {
     "variants": {
-        "facing=down": { "model": "transloc:blockTranslocator", "x": 180 },
-        "facing=up": { "model": "transloc:blockTranslocator" },
-        "facing=north": { "model": "transloc:blockTranslocator", "x": 90 },
-        "facing=south": { "model": "transloc:blockTranslocator", "x": 270 },
-        "facing=west": { "model": "transloc:blockTranslocator", "x": 90, "y": 270 },
-        "facing=east": { "model": "transloc:blockTranslocator", "x": 90, "y": 90 }
+        "facing=down": { "model": "transloc:blocktranslocator", "x": 180 },
+        "facing=up": { "model": "transloc:blocktranslocator" },
+        "facing=north": { "model": "transloc:blocktranslocator", "x": 90 },
+        "facing=south": { "model": "transloc:blocktranslocator", "x": 270 },
+        "facing=west": { "model": "transloc:blocktranslocator", "x": 90, "y": 270 },
+        "facing=east": { "model": "transloc:blocktranslocator", "x": 90, "y": 90 }
     }
 }
