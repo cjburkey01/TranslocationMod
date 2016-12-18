@@ -19,7 +19,7 @@ public class _Blocks {
 	//-- Common --//
 	
 	public static final void commonPreinit() {
-		blockTranslocator = registerBlock("blockTranslocator", new BlockTranslocator());
+		blockTranslocator = registerBlock("blocktranslocator", new BlockTranslocator());
 	}
 	
 	public static final Block registerBlock(String n, Block b) {
