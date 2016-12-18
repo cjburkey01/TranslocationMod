@@ -1,5 +1,5 @@
 # TranslocationMod
-Translocation Minecraft Mod
+Translocation Minecraft Mod: https://minecraft.curseforge.com/projects/translocation-mod
 
 Current Minecraft Version:
 
