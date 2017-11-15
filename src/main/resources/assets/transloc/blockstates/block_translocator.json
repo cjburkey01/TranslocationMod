@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down": { "model": "transloc:block_translocator", "x": 180 },
+        "facing=up": { "model": "transloc:block_translocator" },
+        "facing=north": { "model": "transloc:block_translocator", "x": 90 },
+        "facing=south": { "model": "transloc:block_translocator", "x": 270 },
+        "facing=west": { "model": "transloc:block_translocator", "x": 90, "y": 270 },
+        "facing=east": { "model": "transloc:block_translocator", "x": 90, "y": 90 }
+    }
+}

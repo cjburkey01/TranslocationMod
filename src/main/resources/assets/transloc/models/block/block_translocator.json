@@ -1,10 +1,10 @@
 {
     "parent": "block/cube",
     "textures": {
-        "particle": "transloc:blocks/blocktranslocator_side",
-        "side": "transloc:blocks/blocktranslocator_side",
-        "top": "transloc:blocks/blocktranslocator_top",
-        "bottom": "transloc:blocks/blocktranslocator_bottom"
+        "particle": "transloc:blocks/block_translocator_side",
+        "side": "transloc:blocks/block_translocator_side",
+        "top": "transloc:blocks/block_translocator_top",
+        "bottom": "transloc:blocks/block_translocator_bottom"
     },
     "elements": [
         {

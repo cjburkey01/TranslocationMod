@@ -1,0 +1,28 @@
+{
+    "result": {
+        "item": "transloc:block_translocator"
+    },
+    "pattern": [
+        "yxy",
+        "zaz",
+        "yxy"
+    ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "x": {
+            "item": "minecraft:piston"
+        },
+        "y": {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+        },
+        "z": {
+            "type": "forge:ore_dict",
+            "ore": "ingotGold"
+        },
+        "a": {
+            "type": "forge:ore_dict",
+            "ore": "dustRedstone"
+        }
+    }
+}

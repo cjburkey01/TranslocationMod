@@ -3,8 +3,8 @@ Translocation Minecraft Mod: https://minecraft.curseforge.com/projects/transloca
 
 Current Minecraft Version:
 
-- 1.11
+- 1.12.2
 
 Current Mod Version:
 
-- 1.0.2
+- 1.0.3
