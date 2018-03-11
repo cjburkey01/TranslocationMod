@@ -52,12 +52,12 @@ public class BlockTranslocator extends BlockDirectional implements ITileEntityPr
 	}
 	
 	public static EnumFacing getFacingFromEntity(BlockPos pos, EntityLivingBase ent) {
-		if(MathHelper.abs((float) ent.posX - (float) pos.getX()) < 2.0F && MathHelper.abs((float) ent.posZ - (float) pos.getZ()) < 2.0F) {
+		if (MathHelper.abs((float) ent.posX - (float) pos.getX()) < 2.0F && MathHelper.abs((float) ent.posZ - (float) pos.getZ()) < 2.0F) {
 			double d0 = ent.posY + (double) ent.getEyeHeight();
-			if(d0 - (double) pos.getY() > 2.0D) {
+			if (d0 - (double) pos.getY() > 2.0D) {
 				return EnumFacing.UP;
 			}
-			if((double) pos.getY() - d0 > 0.0D) {
+			if ((double) pos.getY() - d0 > 0.0D) {
 				return EnumFacing.DOWN;
 			}
 		}

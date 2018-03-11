@@ -21,9 +21,11 @@ public class CommonProxy {
 	}
 	
 	public void init(FMLInitializationEvent e) {
+		
 	}
 	
 	public void postinit(FMLPostInitializationEvent e) {
+		
 	}
 	
 }
