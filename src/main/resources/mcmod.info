@@ -3,7 +3,7 @@
   "modid": "transloc",
   "name": "Translocation Mod",
   "description": "Adds a block that acts like pistons did before in 1.10 (teleports stuff).",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "mcversion": "${mcversion}",
   "url": "https://minecraft.curseforge.com/projects/translocation-mod",
   "updateUrl": "",
